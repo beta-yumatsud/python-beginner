@@ -1,0 +1,3 @@
+I recommend $restaurant restaurant.
+
+Do you like it? [y/n]
