@@ -1,12 +1,14 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='python-beginner',
-    version='0.0.1',
-    packages=['lesson_package', 'lesson_package.talk', 'lesson_package.tools'],
+    version='0.0.2',
+    packages=find_packages(),
     url='https://github.com/beta-yumatsud',
     license='Free',
     author='yumatsud',
     author_email='',
-    description='Sample Package'
+    description='Sample Package',
+    # tests_require=['pytest'],
+    test_suits='tests'
 )
